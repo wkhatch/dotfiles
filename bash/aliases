@@ -1,0 +1,64 @@
+# Utility
+alias reload='source ~/.bashrc'
+alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload' # Edit aliases
+alias ee="mate ~/bin/dotfiles/bash/env"
+alias lal="less ~/bin/dotfiles/bash/aliases"
+alias ed="mate ~/bin/dotfiles"
+alias sshm="mate ~/.ssh/config"
+
+# Common -- Some are from Damian Conway
+alias a='ls -A' # -A all except literal . ..
+alias la="ls -A -l -G"
+alias c='clear'
+alias cdd='cd -'  # goto last dir cd'ed from
+alias cl='clear; l'
+function cdc() { 
+    cd $1; ls 
+}
+alias cls='clear; ls'
+alias h='history'
+alias l.='ls -d .[^.]*'
+alias l='ls -lhGt'  # -l long listing, most recent first
+                    # -G color
+alias lh="ls -lh"
+alias ll='ls -lhG'  # -l long listing, human readable, no group info
+alias lt='ls -lt' # sort with recently modified first
+alias md='mkdir -p'
+alias s='cd ..'   # up one dir
+
+function take() { 
+    mkdir -p "$1"
+    cd "$1" 
+}
+
+alias e='exit'
+alias k9="killall -9"
+function killnamed () { 
+    ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill 
+}
+
+# My Customs
+alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
+alias jterry='cd ~/Projects/JTerry/MillerCoors/Code/wkhatch_ws'
+alias lendal='cd ~/Projects/MDuffy/code/lendal_ror'
+alias irsfl='cd ~/Projects/IMAPP/Code/New_Eclipse_Workspace/irsfl'
+alias where_well='cd /Users/bill/Projects/WhereWell/Code/where_well'
+alias doddle='cd ~/Projects/Doddle/Code/Mobile/doddle_iphone_git'
+alias set_ruby='rvm ruby-1.9.2-head'
+alias reframer_db='mysql -h localhost -u root reframer'
+alias lendal_db='mysql -h localhost -u root lendal'
+alias doddle_db='mysql -h localhost -u root mobile_im_tdb'
+alias doddle_news_db='mysql -h localhost -u root 634877_wordpress'
+alias rails_tests='cd ~/Documents/DevStuff/RubyRails/TestApps'
+alias ifp='cd ~/Projects/Doddle/Code/Mobile/ifp_repo'
+alias doddle_web='cd ~/Projects/Doddle/Code/doddle_repo/doddle'
+alias doddle_rails='cd ~/Projects/Doddle/Code/NewServer/doddle_rails'
+alias python_dev='open ~/Documents/DevStuff/Python'
+alias ruby_dev='open ~/Documents/DevStuff/RubyRails'
+alias iphone_dev='open ~/Documents/DevStuff/iPhone'
+alias cocoa_dev='open ~/Documents/DevStuff/Cocoa'
+alias fomo='cd ~/Projects/Knuckleheads/Code/FOMO'
+alias khAndroidToolbox='cd ~/Projects/Knuckleheads/Code/anKHToolbox'
+alias githubs='cd ~/Documents/DevStuff/Githubs'
+alias wordpress='cd /Library/WebServer/Documents/wp'
+alias news_staging='ssh doddle_news_staging'
