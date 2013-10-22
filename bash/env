@@ -1,7 +1,11 @@
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_27-b07-393.jdk/Contents/Home
 export ANT_OPTS=-Xmx512m
+export AWS_CONFIG_FILE=~/bin/dotfiles/aws.txt
+export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+export BERKSHELF_PATH=/Users/bill/Documents/DevStuff/Berkshelf
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/share/python:~/Documents/DevStuff/Android/android-sdk-macosx_current/tools:~/Documents/DevStuff/Android/android-sdk-macosx_current/platform-tools:~/bin:/usr/local/mysql/bin:/Developer/apache-maven-2.0.9/bin:~/.rvm/bin:~/bin/vcprompt:~/bin/dotfiles:$PATH
-export ARCHFLAGS="-arch x86_64"
+  export ARCHFLAGS="-arch x86_64"
 export SVN_EDITOR=/usr/bin/vi
 export EDITOR="mate -w"
 if [ -d /usr/local/pgsql/bin ] ; then

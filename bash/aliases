@@ -26,6 +26,12 @@ alias lt='ls -lt' # sort with recently modified first
 alias md='mkdir -p'
 alias s='cd ..'   # up one dir
 
+# mysql
+
+export MYSQL_HOME=/usr/local/mysql
+alias start_mysql='sudo $MYSQL_HOME/bin/mysqld_safe &'
+alias stop_mysql='sudo $MYSQL_HOME/bin/mysqladmin shutdown'
+
 function take() { 
     mkdir -p "$1"
     cd "$1" 
@@ -38,14 +44,18 @@ function killnamed () {
 }
 
 # My Customs
+alias githubs='cd /Users/bill/Documents/DevStuff/Githubs'
+alias mim_do='cd /Users/bill/Projects/MIM/Code/DevOps/MIM-DevOps'
+alias mim_ios='cd /Users/bill/Projects/MIM/Code/StorySlab-iOS'
+alias mim_php='cd /Users/bill/Projects/MIM/Code/Server-PHP'
 alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
 alias jterry='cd ~/Projects/JTerry/MillerCoors/Code/wkhatch_ws'
 alias lendal='cd ~/Projects/MDuffy/code/lendal_ror'
 alias irsfl='cd ~/Projects/IMAPP/Code/New_Eclipse_Workspace/irsfl'
-alias where_well='cd /Users/bill/Projects/WhereWell/Code/where_well'
+alias set_ruby='rvm ruby-1.9.2-head'
 alias doddle='cd ~/Projects/Doddle/Code/Mobile/doddle_iphone_git'
 alias doddle_android='cd ~/Projects/Doddle/Code/Mobile/doddle2_android'
-alias set_ruby='rvm ruby-1.9.2-head'
+alias doddle_do='cd ~/Projects/Doddle/Doddle-DevOps-AWS'
 alias reframer_db='mysql -h localhost -u root reframer'
 alias lendal_db='mysql -h localhost -u root lendal'
 alias doddle_db='mysql -h localhost -u root mobile_im_tdb'
@@ -64,14 +74,13 @@ alias wordpress='cd /Library/WebServer/Documents/wp'
 alias news_staging='ssh doddle_news_staging'
 alias knuckleheads='cd ~/Projects/Knuckleheads'
 alias fomo='cd ~/Projects/Knuckleheads/Code/FOMO/anFOMO'
-alias modo_i='cd ~/Projects/MobileWallet/modoiOS'
-alias modo_m='mate ~/Projects/MobileWallet/modoiOS'
-alias modo_a='cd ~/Projects/MobileWallet/modoAndroid'
-alias modo_d='cd ~/Projects/MobileWallet/modo-design'
-alias up_demo='cd ~/Projects/Knuckleheads/Code/KHEclipseWS/JB_UP'
+alias modo_i='cd ~/Projects/MODO/modoiOS'
+alias modo_m='mate ~/Projects/MODO/modoiOS'
+alias modo_a='cd ~/Projects/MODO/modoAndroid'
+alias modo_d='cd ~/Projects/MODO/modo-design'
+alias modo_do='cd ~/Projects/MODO/MODO-DevOps'
 alias fn_web='cd ~/Projects/FightNight/Code/Web'
 alias fn_ios='cd ~/Projects/FightNight/Code/iOS/FightNight'
 alias fn_android='cd ~/Projects/FightNight/Code/fn_ws/FightNight'
-alias pb_ios='cd ~/Projects/PillBox/Code/Client/iOS/PillBox'
-alias chef-repo='cd ~/Documents/DevStuff/DevOps/Opscode/Development'
-alias ek='mate ~/.chef/knife.rb'
+alias ek='mate ~/.chef/knife.rb.orig'
+alias se_do='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE_DevOps'
