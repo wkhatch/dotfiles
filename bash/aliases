@@ -5,6 +5,8 @@ alias ee="mate ~/bin/dotfiles/bash/env"
 alias lal="less ~/bin/dotfiles/bash/aliases"
 alias ed="mate ~/bin/dotfiles"
 alias sshm="mate ~/.ssh/config"
+alias hosts="mate /etc/hosts"
+alias dots="cd ~/bin/dotfiles"
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -43,44 +45,70 @@ function killnamed () {
     ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill 
 }
 
-# My Customs
-alias githubs='cd /Users/bill/Documents/DevStuff/Githubs'
+#Softedged
+alias se_do='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE_DevOps'
+alias se_web='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE-Web'
+
+#MIM Project
 alias mim_do='cd /Users/bill/Projects/MIM/Code/DevOps/MIM-DevOps'
 alias mim_ios='cd /Users/bill/Projects/MIM/Code/StorySlab-iOS'
 alias mim_php='cd /Users/bill/Projects/MIM/Code/Server-PHP'
-alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
-alias jterry='cd ~/Projects/JTerry/MillerCoors/Code/wkhatch_ws'
-alias lendal='cd ~/Projects/MDuffy/code/lendal_ror'
-alias irsfl='cd ~/Projects/IMAPP/Code/New_Eclipse_Workspace/irsfl'
-alias set_ruby='rvm ruby-1.9.2-head'
+alias mim_db='mysql -h localhost -u root mim_dashboard'
+
+#Doddle Project
 alias doddle='cd ~/Projects/Doddle/Code/Mobile/doddle_iphone_git'
 alias doddle_android='cd ~/Projects/Doddle/Code/Mobile/doddle2_android'
 alias doddle_do='cd ~/Projects/Doddle/Doddle-DevOps-AWS'
-alias reframer_db='mysql -h localhost -u root reframer'
-alias lendal_db='mysql -h localhost -u root lendal'
 alias doddle_db='mysql -h localhost -u root mobile_im_tdb'
 alias doddle_news_db='mysql -h localhost -u root 634877_wordpress'
-alias rails_tests='cd ~/Documents/DevStuff/RubyRails/TestApps'
 alias ifp='cd ~/Projects/Doddle/Code/Mobile/ifp_repo'
 alias doddle_web='cd ~/Projects/Doddle/Code/doddle_repo/doddle'
 alias doddle_rails='cd ~/Projects/Doddle/Code/NewServer/doddle_rails'
-alias python_dev='open ~/Documents/DevStuff/Python'
-alias ruby_dev='open ~/Documents/DevStuff/RubyRails'
-alias iphone_dev='open ~/Documents/DevStuff/iPhone'
-alias cocoa_dev='open ~/Documents/DevStuff/Cocoa'
-alias khAndroidToolbox='cd ~/Projects/Knuckleheads/Code/anKHToolbox'
-alias githubs='cd ~/Documents/DevStuff/Githubs'
-alias wordpress='cd /Library/WebServer/Documents/wp'
 alias news_staging='ssh doddle_news_staging'
-alias knuckleheads='cd ~/Projects/Knuckleheads'
-alias fomo='cd ~/Projects/Knuckleheads/Code/FOMO/anFOMO'
+
+#MODO Project
 alias modo_i='cd ~/Projects/MODO/modoiOS'
 alias modo_m='mate ~/Projects/MODO/modoiOS'
 alias modo_a='cd ~/Projects/MODO/modoAndroid'
 alias modo_d='cd ~/Projects/MODO/modo-design'
 alias modo_do='cd ~/Projects/MODO/MODO-DevOps'
+alias modo_db='mysql -h localhost -u root dbmw'
+
+#FightNight Project
 alias fn_web='cd ~/Projects/FightNight/Code/Web'
 alias fn_ios='cd ~/Projects/FightNight/Code/iOS/FightNight'
 alias fn_android='cd ~/Projects/FightNight/Code/fn_ws/FightNight'
+
+#Knuckleheads Projects
+alias kh_toolbox='cd ~/Projects/Knuckleheads/Code/anKHToolbox'
+alias kh_root='cd ~/Projects/Knuckleheads'
+alias fomo_a='cd ~/Projects/Knuckleheads/Code/FOMO/FOMOAndroid'
+alias fomo_i='cd ~/Projects/Knuckleheads/Code/FOMO/iOS/ios-FOMO'
+alias fuelbook_a='cd ~/Projects/Knuckleheads/Code/anFuelbook'
+alias fuelbook_m='cd ~/Projects/Knuckleheads/Code/anFuelbookManager'
+alias fuelbook_s='cd ~/Projects/Knuckleheads/Code/anFuelbookShared'
+
+#Reframer
+alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
+alias reframer_db='mysql -h localhost -u root reframer'
+
+#Lendal
+alias lendal_db='mysql -h localhost -u root lendal'
+alias lendal='cd ~/Projects/MDuffy/code/lendal_ror'
+
+#Misc Archived Projects
+alias jterry='cd ~/Projects/JTerry/MillerCoors/Code/wkhatch_ws'
+alias irsfl='cd ~/Projects/IMAPP/Code/New_Eclipse_Workspace/irsfl'
+
+# My Devs
+alias set_ruby='rvm ruby-1.9.2-head'
+alias rails_tests='cd ~/Documents/DevStuff/RubyRails/TestApps'
+alias python_dev='open ~/Documents/DevStuff/Python'
+alias ruby_dev='open ~/Documents/DevStuff/RubyRails'
+alias iphone_dev='open ~/Documents/DevStuff/iPhone'
+alias cocoa_dev='open ~/Documents/DevStuff/Cocoa'
+alias githubs='cd ~/Documents/DevStuff/Githubs'
+alias wordpress='cd /Library/WebServer/Documents/wp'
 alias ek='mate ~/.chef/knife.rb.orig'
-alias se_do='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE_DevOps'
+
+
