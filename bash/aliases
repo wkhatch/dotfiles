@@ -45,6 +45,14 @@ function killnamed () {
     ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill 
 }
 
+#Classifieds
+alias iclass_web='cd /Users/bill/Projects/iClassifieds/Code/iclass_web'
+alias iclass_ios='cd /Users/bill/Projects/iClassifieds/Code/iclass_ios'
+
+#IRSFL
+alias irsfl_web='cd /Users/bill/Projects/IRSFL/Code/irsfl_web'
+alias irsfl_ios='cd /Users/bill/Projects/IRSFL/Code/irsfl_ios'
+
 #Softedged
 alias se_do='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE_DevOps'
 alias se_web='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE-Web'
