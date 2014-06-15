@@ -7,6 +7,7 @@ alias ed="mate ~/bin/dotfiles"
 alias sshm="mate ~/.ssh/config"
 alias hosts="mate /etc/hosts"
 alias dots="cd ~/bin/dotfiles"
+alias httpdc="mate /etc/apache2"
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -29,7 +30,7 @@ alias md='mkdir -p'
 alias s='cd ..'   # up one dir
 
 # mysql
-
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib
 export MYSQL_HOME=/usr/local/mysql
 alias start_mysql='sudo $MYSQL_HOME/bin/mysqld_safe &'
 alias stop_mysql='sudo $MYSQL_HOME/bin/mysqladmin shutdown'
@@ -45,6 +46,9 @@ function killnamed () {
     ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill 
 }
 
+#Personal
+alias vanity='cd /Users/bill/Projects/Personal/wkhatch_site'
+
 #Classifieds
 alias iclass_web='cd /Users/bill/Projects/iClassifieds/Code/iclass_web'
 alias iclass_ios='cd /Users/bill/Projects/iClassifieds/Code/iclass_ios'
@@ -52,6 +56,7 @@ alias iclass_ios='cd /Users/bill/Projects/iClassifieds/Code/iclass_ios'
 #IRSFL
 alias irsfl_web='cd /Users/bill/Projects/IRSFL/Code/irsfl_web'
 alias irsfl_ios='cd /Users/bill/Projects/IRSFL/Code/irsfl_ios'
+alias irsfl_db='mysql -h localhost -u irsfl_dbadmin -ps00p3rs3cr3t irsfl'
 
 #Softedged
 alias se_do='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE_DevOps'
@@ -60,8 +65,8 @@ alias se_web='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE-Web'
 #MIM Project
 alias mim_do='cd /Users/bill/Projects/MIM/Code/DevOps/MIM-DevOps'
 alias mim_ios='cd /Users/bill/Projects/MIM/Code/StorySlab-iOS'
-alias mim_php='cd /Users/bill/Projects/MIM/Code/Server-PHP'
-alias mim_db='mysql -h localhost -u root mim_dashboard'
+alias mim_php='cd /Library/WebServer/Documents/Server-PHP'
+alias mim_db='mysql -h localhost -u mim_dbadmin -ps00p3rs3cr3t mim_dashboard'
 
 #Doddle Project
 alias doddle='cd ~/Projects/Doddle/Code/Mobile/doddle_iphone_git'
@@ -92,9 +97,9 @@ alias kh_toolbox='cd ~/Projects/Knuckleheads/Code/anKHToolbox'
 alias kh_root='cd ~/Projects/Knuckleheads'
 alias fomo_a='cd ~/Projects/Knuckleheads/Code/FOMO/FOMOAndroid'
 alias fomo_i='cd ~/Projects/Knuckleheads/Code/FOMO/iOS/ios-FOMO'
-alias fuelbook_a='cd ~/Projects/Knuckleheads/Code/anFuelbook'
-alias fuelbook_m='cd ~/Projects/Knuckleheads/Code/anFuelbookManager'
-alias fuelbook_s='cd ~/Projects/Knuckleheads/Code/anFuelbookShared'
+alias fuelbook_a='cd ~/Projects/Knuckleheads/Code/Fuelbook/android-Fuelbook'
+alias nautilus_a='cd ~/Projects/Knuckleheads/Code/FOMO/FOMOAndroid'
+
 
 #Reframer
 alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
@@ -118,5 +123,6 @@ alias cocoa_dev='open ~/Documents/DevStuff/Cocoa'
 alias githubs='cd ~/Documents/DevStuff/Githubs'
 alias wordpress='cd /Library/WebServer/Documents/wp'
 alias ek='mate ~/.chef/knife.rb.orig'
+alias bu_mysql='~/bin/mysql_all_bu.sh'
 
 

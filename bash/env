@@ -1,10 +1,11 @@
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_27-b07-393.jdk/Contents/Home
+export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+export ANDROID_HOME=~/Documents/DevStuff/Android/android-sdk-macosx_current
 export ANT_OPTS=-Xmx512m
 export AWS_CONFIG_FILE=~/bin/dotfiles/aws.txt
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 export BERKSHELF_PATH=/Users/bill/Documents/DevStuff/Berkshelf
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/share/python:~/Documents/DevStuff/Android/android-sdk-macosx_current/tools:~/Documents/DevStuff/Android/android-sdk-macosx_current/platform-tools:~/bin:/usr/local/mysql/bin:/Developer/apache-maven-2.0.9/bin:~/.rvm/bin:~/bin/vcprompt:~/bin/dotfiles:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/share/python:~/Documents/DevStuff/Android/android-sdk-macosx_current/tools:~/Documents/DevStuff/Android/android-sdk-macosx_current/platform-tools:~/bin:/usr/local/mysql/bin:/Developer/apache-maven-2.0.9/bin:~/bin/vcprompt:~/bin/dotfiles:$PATH
   export ARCHFLAGS="-arch x86_64"
 export SVN_EDITOR=/usr/bin/vi
 export EDITOR="mate -w"
@@ -16,5 +17,3 @@ fi
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 # - See more at: http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/#sthash.AxADZF2P.dpuf
-
-if [[ -s /Users/bill/.rvm/scripts/rvm ]] ; then source /Users/bill/.rvm/scripts/rvm ; fi
