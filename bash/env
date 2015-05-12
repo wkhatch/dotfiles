@@ -4,7 +4,6 @@ export ANT_OPTS=-Xmx512m
 export AWS_CONFIG_FILE=~/bin/dotfiles/aws.txt
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 export BERKSHELF_PATH=/Users/bill/Documents/DevStuff/Berkshelf
-export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 export AWS_DEFAULT_REGION=us-east-1
 export AWS_DEFAULT_PROFILE=default
 export AWS_CONFIG_FILE=~/.aws/config
