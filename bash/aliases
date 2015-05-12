@@ -115,7 +115,7 @@ alias syn='cd ~/Projects/Knuckleheads/Code/SynTrain'
 #Reframer
 alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
 alias reframer_db='mysql -h localhost -u root reframer'
-alias ow='cd ~/Projects/Optimal/spacewaffle'
+alias ow='cd ~/Documents/Projects/spacewaffle'
 alias ow_db='mysql -h localhost -u root optimalworkshop_development'
 
 #Lendal
