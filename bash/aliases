@@ -8,6 +8,11 @@ alias sshm="mate ~/.ssh/config"
 alias hosts="mate /etc/hosts"
 alias dots="cd ~/bin/dotfiles"
 alias httpdc="mate /etc/apache2"
+alias server_keys="echo 'ssh-keygen -t rsa -C "your_email@example.com"
+
+# Creates a new ssh key, using the provided email as a label
+# Generating public/private rsa key pair.
+# Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]'"
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -28,6 +33,9 @@ alias ll='ls -lhG'  # -l long listing, human readable, no group info
 alias lt='ls -lt' # sort with recently modified first
 alias md='mkdir -p'
 alias s='cd ..'   # up one dir
+
+#redis
+alias redis_start='redis-server /usr/local/etc/redis.conf'
 
 # mysql
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib
@@ -61,12 +69,14 @@ alias irsfl_db='mysql -h localhost -u irsfl_dbadmin -ps00p3rs3cr3t irsfl'
 #Softedged
 alias se_do='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE_DevOps'
 alias se_web='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE-Web'
+alias se_aws='export AWS_DEFAULT_PROFILE=default && export AWS_DEFAULT_REGION=us-east-1'
 
 #MIM Project
 alias mim_do='cd /Users/bill/Projects/MIM/Code/DevOps/MIM-DevOps'
 alias mim_ios='cd /Users/bill/Projects/MIM/Code/StorySlab-iOS'
 alias mim_php='cd /Library/WebServer/Documents/Server-PHP'
 alias mim_db='mysql -h localhost -u mim_dbadmin -ps00p3rs3cr3t mim_dashboard'
+alias mim_aws='export AWS_DEFAULT_PROFILE=mim && export AWS_DEFAULT_REGION=us-east-1'
 
 #Doddle Project
 alias doddle='cd ~/Projects/Doddle/Code/Mobile/doddle_iphone_git'
@@ -98,12 +108,15 @@ alias kh_root='cd ~/Projects/Knuckleheads'
 alias fomo_a='cd ~/Projects/Knuckleheads/Code/FOMO/FOMOAndroid'
 alias fomo_i='cd ~/Projects/Knuckleheads/Code/FOMO/iOS/ios-FOMO'
 alias fuelbook_a='cd ~/Projects/Knuckleheads/Code/Fuelbook/android-Fuelbook'
-alias nautilus_a='cd ~/Projects/Knuckleheads/Code/FOMO/FOMOAndroid'
+alias nautilus_a='cd ~/Projects/Knuckleheads/Code/android-NautilusTrainer'
+alias syn='cd ~/Projects/Knuckleheads/Code/SynTrain'
 
 
 #Reframer
 alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
 alias reframer_db='mysql -h localhost -u root reframer'
+alias ow='cd ~/Projects/Optimal/spacewaffle'
+alias ow_db='mysql -h localhost -u root optimalworkshop_development'
 
 #Lendal
 alias lendal_db='mysql -h localhost -u root lendal'

@@ -5,7 +5,10 @@ export AWS_CONFIG_FILE=~/bin/dotfiles/aws.txt
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 export BERKSHELF_PATH=/Users/bill/Documents/DevStuff/Berkshelf
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/share/python:~/Documents/DevStuff/Android/android-sdk-macosx_current/tools:~/Documents/DevStuff/Android/android-sdk-macosx_current/platform-tools:~/bin:/usr/local/mysql/bin:/Developer/apache-maven-2.0.9/bin:~/bin/vcprompt:~/bin/dotfiles:$PATH
+export AWS_DEFAULT_REGION=us-east-1
+export AWS_DEFAULT_PROFILE=default
+export AWS_CONFIG_FILE=~/.aws/config
+PATH=$PATH:/Applications/Araxis\ Merge.app/Contents/Utilities PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/share/python:~/Documents/DevStuff/Android/android-sdk-macosx_current/tools:~/Documents/DevStuff/Android/android-sdk-macosx_current/platform-tools:~/bin:/usr/local/mysql/bin:/Developer/apache-maven-2.0.9/bin:~/bin/vcprompt:~/bin/dotfiles:$PATH
   export ARCHFLAGS="-arch x86_64"
 export SVN_EDITOR=/usr/bin/vi
 export EDITOR="mate -w"
