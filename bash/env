@@ -8,7 +8,8 @@ export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 export AWS_DEFAULT_REGION=us-east-1
 export AWS_DEFAULT_PROFILE=default
 export AWS_CONFIG_FILE=~/.aws/config
-PATH=$PATH:/Applications/Araxis\ Merge.app/Contents/Utilities PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/share/python:~/Documents/DevStuff/Android/android-sdk-macosx_current/tools:~/Documents/DevStuff/Android/android-sdk-macosx_current/platform-tools:~/bin:/usr/local/mysql/bin:/Developer/apache-maven-2.0.9/bin:~/bin/vcprompt:~/bin/dotfiles:$PATH
+PATH=$PATH:/Applications/Araxis\ Merge.app/Contents/Utilities
+PATH=$PATH:/Users/bill/Documents/DevStuff/AWS/AWS-ElasticBeanstalk-CLI-2.6.4/eb/macosx/python2.7/ PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/share/python:~/Documents/DevStuff/Android/android-sdk-macosx_current/tools:~/Documents/DevStuff/Android/android-sdk-macosx_current/platform-tools:~/bin:/usr/local/mysql/bin:/Developer/apache-maven-2.0.9/bin:~/bin/vcprompt:~/bin/dotfiles:$PATH
   export ARCHFLAGS="-arch x86_64"
 export SVN_EDITOR=/usr/bin/vi
 export EDITOR="mate -w"
