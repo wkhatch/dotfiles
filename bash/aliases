@@ -58,13 +58,17 @@ function killnamed () {
 alias vanity='cd /Users/bill/Projects/Personal/wkhatch_site'
 
 #Classifieds
-alias iclass_web='cd /Users/bill/Projects/iClassifieds/Code/iclass_web'
-alias iclass_ios='cd /Users/bill/Projects/iClassifieds/Code/iclass_ios'
+#alias iclass_web='cd /Users/bill/Projects/iClassifieds/Code/iclass_web'
+#alias iclass_ios='cd /Users/bill/Projects/iClassifieds/Code/iclass_ios'
 
 #IRSFL
 alias irsfl_web='cd /Users/bill/Projects/IRSFL/Code/irsfl_web'
 alias irsfl_ios='cd /Users/bill/Projects/IRSFL/Code/irsfl_ios'
 alias irsfl_db='mysql -h localhost -u irsfl_dbadmin -ps00p3rs3cr3t irsfl'
+
+
+#Cartoon Gems
+alias cg-met='cd /Users/bill/Projects/HoneyDee/code/Trivia_Web'
 
 #Softedged
 alias se_do='cd /Users/bill/Projects/Code_Creations/Softedged/Code/SE_DevOps'
@@ -89,19 +93,6 @@ alias doddle_web='cd ~/Projects/Doddle/Code/doddle_repo/doddle'
 alias doddle_rails='cd ~/Projects/Doddle/Code/NewServer/doddle_rails'
 alias news_staging='ssh doddle_news_staging'
 
-#MODO Project
-alias modo_i='cd ~/Projects/MODO/modoiOS'
-alias modo_m='mate ~/Projects/MODO/modoiOS'
-alias modo_a='cd ~/Projects/MODO/modoAndroid'
-alias modo_d='cd ~/Projects/MODO/modo-design'
-alias modo_do='cd ~/Projects/MODO/MODO-DevOps'
-alias modo_db='mysql -h localhost -u root dbmw'
-
-#FightNight Project
-alias fn_web='cd ~/Projects/FightNight/Code/Web'
-alias fn_ios='cd ~/Projects/FightNight/Code/iOS/FightNight'
-alias fn_android='cd ~/Projects/FightNight/Code/fn_ws/FightNight'
-
 #Knuckleheads Projects
 alias kh_toolbox='cd ~/Projects/Knuckleheads/Code/anKHToolbox'
 alias kh_root='cd ~/Projects/Knuckleheads'
@@ -111,6 +102,35 @@ alias fuelbook_a='cd ~/Projects/Knuckleheads/Code/Fuelbook/android-Fuelbook'
 alias nautilus_a='cd ~/Projects/Knuckleheads/Code/android-NautilusTrainer'
 alias syn='cd ~/Projects/Knuckleheads/Code/SynTrain'
 
+#RushTera
+
+alias rt_chunk='cd ~/Projects/RushTera/Code/rt_chunkmanager'
+alias rt_trans='cd ~/Projects/RushTera/Code/TranscodeManager'
+alias rt_web='cd ~/Projects/RushTera/Code/web'
+
+alias db1='ssh root@10.0.99.61 -p 922'
+alias db2='ssh root@10.0.99.63 -p 922'
+alias dev1='ssh root@50.115.93.180 -p 922'
+alias dev3='ssh root@10.0.99.27 -p 922'
+alias dev4='ssh root@10.0.99.30 -p 922'
+alias dev7='ssh root@10.0.99.31 -p 922'
+alias prod1='ssh root@10.0.99.21 -p 922'
+alias prod2='ssh root@10.0.99.24 -p 922'
+alias prod3='ssh root@10.0.99.23 -p 922'
+alias encoder1='ssh root@10.0.99.72 -p 922'
+alias encoder2='ssh root@10.0.99.74 -p 922'
+alias encoder3='ssh root@10.0.99.75 -p 922'
+alias queuemaster='ssh root@10.0.99.67 -p 922'
+alias cr1='ssh root@10.0.99.32 -p 922'
+alias cr2='ssh root@10.0.99.33 -p 922'
+alias cr3='ssh root@10.0.99.34 -p 922'
+alias lax='ssh root@50.115.80.196 -p 922'
+alias frk='ssh root@54.93.92.122 -p 922'
+alias atl='ssh root@192.3.16.219 -p 922'
+alias ire='ssh root@52.16.218.120 -p 922'
+alias aus='ssh root@52.64.64.145 -p 922'
+
+
 
 #Reframer
 alias reframer='cd ~/Projects/MessageFirst/Code/reframer'
@@ -119,12 +139,12 @@ alias ow='cd ~/Projects/Optimal/spacewaffle'
 alias ow_db='mysql -h localhost -u root optimalworkshop_development'
 
 #Lendal
-alias lendal_db='mysql -h localhost -u root lendal'
-alias lendal='cd ~/Projects/MDuffy/code/lendal_ror'
+#alias lendal_db='mysql -h localhost -u root lendal'
+#alias lendal='cd ~/Projects/MDuffy/code/lendal_ror'
 
 #Misc Archived Projects
-alias jterry='cd ~/Projects/JTerry/MillerCoors/Code/wkhatch_ws'
-alias irsfl='cd ~/Projects/IMAPP/Code/New_Eclipse_Workspace/irsfl'
+#alias jterry='cd ~/Projects/JTerry/MillerCoors/Code/wkhatch_ws'
+#alias irsfl='cd ~/Projects/IMAPP/Code/New_Eclipse_Workspace/irsfl'
 
 # My Devs
 alias set_ruby='rvm ruby-1.9.2-head'
